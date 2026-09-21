@@ -22,13 +22,13 @@ Projects will be added progressively as I improve my skills.
 
 ## About me
 
-Mechanical design student with a **Bachelor's degree equivalent (Licence Professionnelle)** in Innovation, Design and Prototyping (ICP).
+Mechanical design student with a French **Professional Bachelor's Degree (Licence Professionnelle)** in Innovation, Design and Prototyping (ICP).
 
 My academic background includes:
 
 * **Bac Pro EDPI** – Industrial Product Design and Engineering
 * **BTS CPI** – Product Design and Engineering
-* **Bachelor's degree equivalent (Licence Professionnelle ICP)** – Innovation, Design and Prototyping
+* **Professional Bachelor's Degree (Licence Professionnelle ICP)** – Innovation, Design and Prototyping
 
 Interested in mechanical engineering, CAD, prototyping and engineering automation.
 
