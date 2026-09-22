@@ -37,7 +37,7 @@ def main():
     F_t = calcul_effort_tangentiel(D, C)
     S_matage = calcul_surface_projetee(h, t_1, L)
     p = calcul_pression_reel(F_t, S_matage)
-    τ = calcul_contrainte_cisaillée(S_c, F_t, Rₚₑ)
+    τ = calcul_contrainte_cisaillée(S_c, F_t)
 
     print(f"Effort tengentiel : {F_t:.2f} N")
     print(f"Résistance élastique : {Rₚₑ:.2f} MPa")
