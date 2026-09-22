@@ -12,11 +12,8 @@ reponses(nom, age)
 
 # Test de synchronisation GitHubdzsdsd
 
-("Deuxième test de synchronisation")
-("troisième test de synchronisation")
-
 s = "abc"
-s[0]
+print(s[0])
 s[1]
 s[2]
 s[-1]
