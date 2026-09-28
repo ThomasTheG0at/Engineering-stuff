@@ -2,14 +2,14 @@ from math import pi, tan, radians
 
 def saisie_train_engrenages():
     N1 = float(input("Quel est la vitesse de rotation en entrée N1 (en tr/min) ? : ").replace(" ", "").replace(",", "."))
-    P = float(input("Quel est la puissance d'entrée (en kW)").replace(" ", "").replace(",", "."))
-    nb_etages = int(input("Combien y'a-t-il d'étages").replace(" ", "").replace(",", "."))
+    P = float(input("Quel est la puissance d'entrée (en kW) ? : ").replace(" ", "").replace(",", "."))
+    nb_etages = int(input("Combien y'a-t-il d'étages ? : ").replace(" ", "").replace(",", "."))
     etages = []
     for i in range(nb_etages):
         Z1 = int(input("Quel est le nomrbe de dents du pignon moteur (Z1) ? : "))
         Z2 = int(input("Quel est le nombre de dents de la roue menée (Z2) ? : "))
         m = float(input("Quel est le module de (Z1) et (Z2) ? : ").replace(" ", "").replace(",", "."))
-        η =  float(input("Indiquer le rendement (ex: 0.95 pour 95%)").replace(" ", "").replace(",", "."))
+        η =  float(input("Indiquer le rendement (ex: 0.95 pour 95%) : ").replace(" ", "").replace(",", "."))
         dico = {"Z1": Z1, "Z2": Z2, "m": m, "η": η}
         etages.append(dico)
     return N1, P, etages
